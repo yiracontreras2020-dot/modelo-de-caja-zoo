@@ -1,0 +1,136 @@
+.col{
+    position: relative;
+    float: left;
+    border: 0px solid #666;
+    background-color: rgba(184, 187, 187, 0.3); 
+    background-image: url(../assets/bjp.png);
+    color: #3a2b1f; /* color de texto marrón oscuro */
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    }
+
+.col header{
+    margin-bottom: 15px;
+    border-bottom: 0px solid #666;
+    
+}
+
+.col header h2{
+    font-size: 20px;
+    color: #b33;
+}
+
+.col header h3{
+    font-size: 14px;
+    color: #b33;
+}
+
+.col article{
+    font-size: 14px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    border: 0px dashed #666;
+    background-image: url(../assets/bjp.png);
+    color: #3a2b1f;
+}
+
+.col article: :last-of-type{
+    border: 0px !important;
+}
+
+,col article header{
+    margin-bottom: 8px;
+    border-bottom: 0px dashed #666;
+    background-color: rgba(184, 187, 187, 0.5); 
+    
+}
+
+
+#noticias{
+    width: 195px;
+    margin-left: 30px;
+    background-image: url(../assets/bjp.png);
+}
+
+
+#animal_mes{
+    width: 438px;
+    margin-left: 30px;
+    background-image: url(../assets/bjp.png);
+}
+
+#animal_mes img{
+    width: 438px;
+    height: 253px;
+    background-image: url(../assets/bjp.png);
+}
+
+
+
+#redes_sociales {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+#redes_sociales h2 {
+  color: #b33;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#redes_sociales ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#redes_sociales ul li {
+  margin-bottom: 10px;
+}
+
+#redes_sociales ul li a {
+  text-decoration: none;
+  color: #7a4b4b;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+/* Estilo base del icono */
+#redes_sociales .icon {
+  width: 21px;
+  height: 19px;
+  margin-right: 8px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* Íconos individuales */
+#redes_sociales .red_email .icon {
+  background-image: url('../assets/email.png');
+}
+
+#redes_sociales .red_facebook .icon {
+  background-image: url('../assets/facebook.png');
+}
+
+#redes_sociales .red_twitter .icon {
+  background-image: url('../assets/twitter.png');
+}
+
+#redes_sociales .red_rss .icon {
+  background-image: url('../assets/rss.png');
+}
+
+
+#pinguino{
+    width: 154px;
+    height: 235px;
+    z-index: 1000;
+    position: absolute;
+    right: 30px;
+    bottom: -68px;
+    border: 0px solid #666;
+    background-color: #8c9797;
+    background-image: url(../assets/pinguino.png);
+}

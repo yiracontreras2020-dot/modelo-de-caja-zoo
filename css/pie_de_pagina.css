@@ -1,0 +1,82 @@
+#footer_principal .content_principal{
+    height: 100%;
+    font-size: 12px;
+    background-color: rgba(184, 187, 187, 0.2);
+    border-left: 0px dashed #666;
+    border-right: 0px dashed #666;
+    background-image: url(../assets/bgf.png);
+    font-family: Arial, sans-serif;
+    color: #3a2b1f; /* Marrón oscuro */
+}
+
+#footer_principal .logo,
+#footer_principal address,
+#footer_principal blockquote
+{
+    float: left;
+    font-style: normal;
+}
+
+#footer_principal .logo{
+    margin-top: 45px;
+    width: 132px;
+    height: 170px;
+    border: 0px solid #666;
+    background-image: url(../assets/logo_footer.png);
+}
+
+#footer_principal address, #footer_principal blockquote{
+    margin-top: 70px;
+    background-color: rgba(184, 187, 187, 0.5);
+    background-image: url(../assets/bjp.png);
+    font-family: "Georgia", serif;
+    color: #5b3a22; /* Marrón medio */
+    line-height: 1.4;
+}
+
+
+#footer_principal address{
+    margin-left: 50px;
+    border: 0px solid #666;
+}
+
+
+#footer_principal blockquote{
+    width: 363px;
+    font-style: italic;
+    text-align: right;
+    float: right;
+    border: 0px solid #666;
+    background-image: url(../assets/bjp.png);
+
+}
+
+
+#footer_principal blockquote h3{
+    font-style: normal;
+}
+
+#footer_principal .linea{
+    position: relative;
+    float: left;
+    width: 510px;
+    border-bottom: 0px dashed #666;
+    margin-top: 44px;
+    margin-left: 50px;
+
+}
+
+
+#footer_principal small{
+    position: relative;
+    float: left;
+    width: 510px;
+    text-align: center;
+    margin-top: 23px;
+    font-size: 12px;
+    margin-left: 50px;
+    border: 0px solid #666;
+    background-color: rgba(184, 187, 187, 0.5);
+    background-image: url(../assets/bjp.png);
+    
+}

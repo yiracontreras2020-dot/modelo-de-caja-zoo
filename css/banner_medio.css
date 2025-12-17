@@ -1,0 +1,30 @@
+#banner{
+    position: relative;
+    width: 912px;
+    height: 63px;
+    margin: 20px auto 20px auto;
+    border: 0px solid #666;
+    background-color: rgba (184, 187, 187, 0.5);
+    background-image: url(../assets/bge.png);
+    color: #e9e1e1;
+}
+
+#banner .text1,
+#banner .text2{
+    position: relative;
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: bold;
+    border: 0px solid #666;
+    
+}
+
+#banner .text1{
+    font-size: 24px;
+    margin-left: 53px;
+}
+
+#banner .text2{
+    font-size: 16px;
+    margin-left: 53px;
+}

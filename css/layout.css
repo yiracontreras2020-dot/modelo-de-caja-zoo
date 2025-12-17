@@ -1,0 +1,78 @@
+body{
+    background-image: url(../assets/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* mantiene el fondo fijo */
+    color: #3a2b1f; /* color general del texto */
+    font-family: Arial, Georgia, serif;
+    line-height: 1.6;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: Arial, georgia, serif;
+    transition: all linear 0.3s;  
+}
+
+
+#nav_principal,
+#contenedor_principal,
+#footer_principal .content_principal
+{
+    position: relative;
+    width: 956px;
+    margin: auto;
+    background-image: url(../assets/bgp.png);
+}
+
+#nav_principal {
+    margin-top: 18px;
+    border: 0px ;
+    border-bottom: 0px;
+    background-image: url(../assets/bgp.png);
+    background-color: #5b3a22; /* marrón oscuro */
+}
+
+#contenedor_principal {
+    top: -20px;
+    height: 867px;
+    margin: auto;
+    border: 0px solid #666;
+    background-color: rgba(226, 229, 229, 0.5);
+    background-image: url(../assets/bgp.png);
+    color: #3a2b1f; /* color de texto principal */
+    font-family: Arial, sans-serif;
+}
+
+#footer_principal {
+    position: relative;
+    width: 100%;
+    height: 258px;
+    margin-top: 17px;
+    border-top: 0px solid #666;
+    background-color: rgba(226, 229, 229, 0.5);
+    background-image: url(../assets/bgp.png);
+    color: #5b3a22; /* texto marrón medio */
+    font-family: Georgia, serif;
+    font-size: 13px;
+}
+
+a {
+    color: #5b3a22; /* marrón medio */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #a42020; /* rojo vino al pasar el cursor */
+    text-decoration: underline;
+}
+
+.div_clear_both{
+    position: relative;
+    width: 100%;
+    clear: both;
+    
+}

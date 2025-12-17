@@ -1,0 +1,73 @@
+#header_principal, #galeria{
+    float: left;
+    background-image: url(../assets/bgg.png);
+}
+
+#header_principal{
+    position: relative;
+    width: 245px;
+    margin-left: 30px;
+    background-image: url(../assets/bgg.png);
+}
+
+#header_principal .logo{
+    width: 245px;
+    height: 246px;
+    border: 0px solid #666;
+    background-image: url(../assets/logo.png);
+}
+
+#header_principal form{
+    position: relative;
+    width: 230px;
+    margin: 10px auto 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#header_principal form label{
+    display: block;
+    font-weight: bold;
+    color: #b33;
+}
+
+#header_principal form input[type=text] {
+    border: 0px solid #999;
+    padding: 5px 10px 5px 10px;
+    
+}
+
+#header_principal form button {
+    background-color: #8c9797;
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+    
+}
+
+
+#galeria{
+    position: relative;
+    width: 647px;
+    height: 307px;
+    margin: 21px 0 0 13px;
+    border: 0px solid #666;
+    background-color: rgba (184, 187, 187, 0.5);
+    background-image: url(../assets/bgg.png);
+}
+
+#galeria figure{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 20px 0 0 20px;
+    border: 0px dashed #666;
+    background-color: rgba(184, 187, 187, 0.5);
+    background-image: url(../assets/bggg.png);
+}
+
+#galeria img{
+    width: 101px;
+    height: 101px;
+    border: 1px solid #666;
+    
+}

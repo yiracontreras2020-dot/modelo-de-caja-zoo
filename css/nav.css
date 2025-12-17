@@ -1,0 +1,36 @@
+#nav_principal ul {
+    position: relative;
+    float: right;
+    right: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-image: url(../assets/bgp.png);
+    background-repeat: repeat-x;
+}
+
+#nav_principal ul li{
+    position: relative;
+    display: inline-block;
+    padding: 0 10px 0 10px;
+    height: 50px;
+    width: 58px;
+    text-align: center;
+    cursor: pointer;
+    background-image: url(../assets/bgp.png);
+    
+}
+
+#nav_principal ul li a{
+    top: 10px;
+    position: relative;
+    font-size: 15px;
+    color: #5b3a22;
+
+}
+
+#nav_principal ul li.activo a,
+#nav_principal ul li:hover a{
+    color:blue;
+    
+}

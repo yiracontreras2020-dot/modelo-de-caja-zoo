@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="ISO-639">
+    <meta name="autor" content="Angie Montes">
+    <meta name="description" content="Modelo de caja - Zoologico zao paulo">
+    <meta name="keywords" content="HTML, CSS, JacaScript">
+    <title>Modelo de caja zoo</title>
+    <link rel="stylesheet" href="css/layout.css" media="screen">
+    <link rel="stylesheet" href="css/nav.css" media="screen">
+    <link rel="stylesheet" href="css/cabecera_galeria.css" media="screen">
+    <link rel="stylesheet" href="css/banner_medio.css" media="screen">
+    <link rel="stylesheet" href="css/columns.css">
+    <link rel="stylesheet" href="css/pie_de_pagina.css">
+</head>
+<body>
+    <nav id="nav_principal">
+        <ul>
+            <li class="activo"><a href="#">Home</a></li>
+            <li><a href="#">Zoológico</a></li>
+            <li><a href="#">Visitantes</a></li>
+            <li><a href="#">Ingreso</a></li>
+            <li><a href="#">Eventos</a></li>
+            <li><a href="#">Galeria</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+        <div class="div_clear_both"></div>
+    </nav>
+
+    <div id="contenedor_principal">
+        <header id="header_principal">
+            <div class="logo"> <img alt="Imagen" src="assets/logo.png"</div>
+            <form action="#">
+                <label>&#60;Newsletter></label>
+                <input type="text" placeholder="Digite seu email"/>
+                <button>ok</button>
+            </form>
+        </header>
+
+    <div id="galeria">
+        <!--se repite 10 veces este codigo-->
+        <figure>
+            <img alt="Imagen" src="assets/lobo.png" />
+            <figcaption>Lobo guará</figcaption>
+        </figure>
+
+        <figure>
+            <img alt="Imagen" src="assets/elefante (1).png" />
+            <figcaption>Elefante</figcaption>
+        </figure>
+       
+        <figure>
+            <img alt="Imagen" src="assets/mico.png" />
+            <figcaption>Mico Leão</figcaption>
+        </figure>
+        
+        <figure>
+            <img alt="Imagen" src="assets/mariposa.png" />
+            <figcaption>Borboleta</figcaption>
+        </figure>
+
+        <figure>
+            <img alt="Imagen" src="assets/leon.png" />
+            <figcaption>Leão</figcaption>
+        </figure>
+
+        <figure>
+            <img alt="Imagen" src="assets/cobra (1).png" />
+            <figcaption>Cobra</figcaption>
+        </figure>
+
+        <figure>
+            <img alt="Imagen" src="assets/gorila.png" />
+            <figcaption>Gorila</figcaption>
+        </figure>
+
+        <figure>
+            <img alt="Imagen" src="assets/tortuga.png" />
+            <figcaption>Tartaruga</figcaption>
+        </figure>
+
+        <figure>
+            <img alt="Imagen" src="assets/tucano.png" />
+            <figcaption>Tucano</figcaption>
+        </figure>
+
+        <figure>
+            <img alt="Imagen" src="assets/galeria (1).png" />
+            <figcaption>Galeria</figcaption>
+        </figure>
+ 
+
+
+
+        <!---->
+    </div>
+    <div class="div_clear_both"></div>
+
+
+    <aside id="banner">
+        <h1 class="text text1">Evento Especial:</h1>
+        <h2 class="text text2">Venha trilhar o caminho da serpente - A maior exposição de serpentes</h2>
+    </aside>
+
+
+    <!--Revisar este codigo-->
+    <section class="col" id="noticias">
+        <header>
+            <h2>Noticias</h2>
+        </header>
+
+    <!-- Se repite 3 veces este código -->
+    <article>
+        <header><h3>Janeiro</h3></header>
+        <p>
+            Inauguração da exposição “O Caminho da Serpente”... 
+            <a href="#">[+]
+        </p>     
+    </article>
+    <!---->
+
+    <article>
+        <header><h3>Fevereiro</h3></header>
+        <p>
+            incidência da doença em animais do São Paulo diminui após... 
+            <a href="#">[+]
+        </p>     
+    </article>
+    
+    
+    <article>
+        <header><h3>Março</h3></header>
+        <p>Realiza-se até 31 de março, VII Fórum Brasileiro de Educação Ambiental... 
+            <a href="#">[+]</a>
+        </p>     
+    </article>
+
+    </section>
+
+    <section class="col" id="animal_mes">
+        <header>
+            <h2>Bicho do Mês</h2>
+        </header>
+        <img src="assets/animal_mes (1).png" alt="Animal del mes" title="Animal del mes">
+        <p>
+        As corujas são aves predadoras, se alimentam de outros animais, vertebrados ou invertebrados. Possuem bicos curvos e garras com unhas afiadíssimas, servem para capturar as presas.
+        <a href="#">[+]</a>
+    </p>
+
+    </section>
+        <section class="col" id="redes_sociales">
+            <header><h2>Redes sociales</h2></header>
+            <ul>
+                <li class="red_email">
+                    <a href="#"><div class="icon"></div><div>Email</div></a>
+                </li>
+                <li class="red_facebook">
+                    <a href="#"><div class="icon"></div><div>Facebook</div></a>
+                </li>
+                <li class="red_twitter">
+                    <a href="#"><div class="icon"></div><div>Twitter</div></a>
+                </li>
+                <li class="red_rss">
+                    <a href="#"><div class="icon"></div><div>Feed RSS</div></a>
+                </li>
+            </ul>
+        </section>
+
+
+        <aside id="pinguino"></aside>
+    
+
+    </div>
+
+        
+    </div>
+
+
+
+    <footer id="footer_principal">
+        
+        <section class="content_principal">
+            <div class="logo"></div>
+            <address>
+                &#60;Avenida Miguel Estéfano, 4241 – Água Fundação
+                <br>
+                Fone: (11) 5073-0811 / Fax: (11) 5058-0564
+            </br>
+                Fundação Parque Zoológico de São Paulo
+            </address>
+            <blockquote>
+                <p>
+                    “Apenas aquele que conhece verdadeiramente os animais 
+                    <br>
+                    é capaz de compreender plenamente 
+                </br>
+                    o caráter único do homem.”
+                </p>
+                <h3>Konrad Lorenz</h3>
+            </blockquote>
+            <div class="linea"></div>
+            <small>
+                Zoológico de São Paulo © 2012
+            </small>
+
+        </section>
+    </footer>
+</body>
+</html>
